@@ -113,11 +113,102 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
   dice3d.addDicePreset({
     type:"d20",
     labels:[
-      'modules/character-dice/faces/DaryunChibiEmoji.png','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      'modules/character-dice/faces/DaryunChibi.png','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
       '20'
     ],
     system:"Daryun1"
   });
+
+dice3d.addSystem({id:"Dankward1",name:"Dankward1 (d20, 1 best)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/character-dice/faces/Dankward.png','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      '20'
+    ],
+    system:"Dankward1"
+  });
+  
+  dice3d.addSystem({id:"Eirik1",name:"Eirik1 (d20, 1 best)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/character-dice/faces/EirikChibi.png','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      '20'
+    ],
+    system:"Eirik1"
+  });
+  
+  dice3d.addSystem({id:"Janne1",name:"Janne1 (d20, 1 best)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/character-dice/faces/JanneChibi.png','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      '20'
+    ],
+    system:"Janne1"
+  });
+  
+  dice3d.addSystem({id:"Kazim1",name:"Kazim1 (d20, 1 best)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/character-dice/faces/KazimChibi.png','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      '20'
+    ],
+    system:"Kazim1"
+  });
+  
+  dice3d.addSystem({id:"Praiadne1",name:"Praiadne1 (d20, 1 best)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/character-dice/faces/Praiadne.png','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      '20'
+    ],
+    system:"Praiadne1"
+  });
+  
+  dice3d.addSystem({id:"Romoxosch1",name:"Romoxosch1 (d20, 1 best)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/character-dice/faces/Romoxosch.png','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      '20'
+    ],
+    system:"Romoxosch1"
+  });
+
+  dice3d.addSystem({id:"Trijow1",name:"Trijow1 (d20, 1 best)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/character-dice/faces/Trijow.png','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      '20'
+    ],
+    system:"Trijow1"
+  });
+  
+  dice3d.addSystem({id:"Valariel1",name:"Valariel1 (d20, 1 best)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/character-dice/faces/Valariel.png','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      '20'
+    ],
+    system:"Valariel1"
+  });
+
+
+
 
   dice3d.addSystem({id:"Dragon1",name:"Dragon1 (d20, 1 best)"},false);
 
