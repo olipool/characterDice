@@ -14,7 +14,7 @@
   ],
   "scripts": ["scripts/nice-more-dice.json"],
   "url": "https://github.com/olipool/characterDice",
-  "manifest": "https://github.com/olipool/characterDice/blob/main/nice-more-dice/module.json",
+  "manifest": "https://github.com/olipool/characterDice/blob/main/character-dice/module.json",
   "download": "https://github.com/olipool/characterDice/blob/main/module.zip",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "10",
