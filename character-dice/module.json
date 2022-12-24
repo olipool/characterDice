@@ -1,0 +1,26 @@
+{
+  "name": "character-dice",
+  "id": "character-dice",
+  "title": "Character Dice",
+  "description": "Adds a bunch of dice textures and dice faces to DsN.",
+  "version": "1.0.0",
+  "readme": "https://github.com/olipool/characterDice/blob/main/README.md",
+  "changelog": "https://github.com/olipool/characterDice/blob/main/Changelog.md",
+  "author": "LyncsCwtsh",
+  "authors": [
+    {
+      "name": "LyncsCwtsh"
+    }
+  ],
+  "scripts": ["scripts/nice-more-dice.json"],
+  "url": "https://github.com/olipool/characterDice",
+  "manifest": "https://github.com/olipool/characterDice/blob/main/nice-more-dice/module.json",
+  "download": "https://github.com/olipool/characterDice/blob/main/module.zip",
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.7.9",
+    "verified": 10,
+    "maximum": 10
+  }
+}
