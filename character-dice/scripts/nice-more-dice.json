@@ -130,26 +130,26 @@ dice3d.addSystem({id:"Dankward1",name:"Dankward1 (d20, 1 best)"},false);
     system:"Dankward1"
   });
   
-  dice3d.addSystem({id:"Eirik1",name:"Eirik1 (d20, 1 best)"},false);
+  dice3d.addSystem({id:"Eiric1",name:"Eiric1 (d20, 1 best)"},false);
 
   dice3d.addDicePreset({
     type:"d20",
     labels:[
-      'modules/character-dice/faces/EirikChibi.png','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      'modules/character-dice/faces/EiricChibi.png','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
       '20'
     ],
-    system:"Eirik1"
+    system:"Eiric1"
   });
   
-  dice3d.addSystem({id:"Janne1",name:"Janne1 (d20, 1 best)"},false);
+  dice3d.addSystem({id:"Janne1-20",name:"Janne1-20 (d20, 1 best, 20 worst)"},false);
 
   dice3d.addDicePreset({
     type:"d20",
     labels:[
-      'modules/character-dice/faces/JanneChibi.png','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
-      '20'
+      'modules/character-dice/faces/Janne.png','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      'modules/character-dice/faces/JanneChibi.png'
     ],
-    system:"Janne1"
+    system:"Janne1-20
   });
   
   dice3d.addSystem({id:"Kazim1",name:"Kazim1 (d20, 1 best)"},false);
@@ -207,7 +207,38 @@ dice3d.addSystem({id:"Dankward1",name:"Dankward1 (d20, 1 best)"},false);
     system:"Valariel1"
   });
 
+  dice3d.addSystem({id:"Nazir1",name:"Nazir1 (d20, 1 best)"},false);
 
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/character-dice/faces/Nazir.png','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      '20'
+    ],
+    system:"Nazir1"
+  });
+  
+  dice3d.addSystem({id:"Hypatia1",name:"Hypatia1 (d20, 1 best)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/character-dice/faces/Hypatia.png','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      '20'
+    ],
+    system:"Hypatia1"
+  });
+  
+  dice3d.addSystem({id:"Leomar1",name:"Leomar1 (d20, 1 best)"},false);
+
+  dice3d.addDicePreset({
+    type:"d20",
+    labels:[
+      'modules/character-dice/faces/Leomar.png','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
+      '20'
+    ],
+    system:"Leomar1"
+  });
 
 
   dice3d.addSystem({id:"Dragon1",name:"Dragon1 (d20, 1 best)"},false);
@@ -216,7 +247,7 @@ dice3d.addSystem({id:"Dankward1",name:"Dankward1 (d20, 1 best)"},false);
     type:"d20",
     labels:[
       'modules/character-dice/faces/dragon20.webp','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19',
-      'No'
+      '20'
     ],
     system:"Dragon1"
   });
